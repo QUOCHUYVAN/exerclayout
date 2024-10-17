@@ -1,0 +1,270 @@
+.author-img{
+  width: 102;
+  height: 81px;
+  border-radius: 15px;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 6px;
+  border: 1px;
+  border-style: solid;
+}
+.left-section{
+  background-color: lightblue;
+  border: 1px;
+  border-style: solid;
+  margin-bottom: 0;
+}
+.right-section{
+  background-color: lightpink;
+}
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
+.author-name{
+  color: #755543;
+  text-align: center;
+}
+.navigation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 6px;
+}
+.nav-links{
+  display: flex;
+  gap: 10px;
+}
+.home-left-navigation{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  transition: all 0.2s;
+  gap: 3px;
+}
+.home-left-navigation:hover{
+  background-color: #DBD5CB;
+  color: #755543;
+  border-radius: 3px;
+}
+.home-navigation{
+  margin-right: 18px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  font-size: 12px;
+  transition: all 0.2s;
+}
+.home-navigation:hover{
+  background-color: #DBD5CB;
+  color: #755543;
+  border-radius: 3px;
+}
+.author-position{
+  color: #755543;
+  margin-bottom: 0;
+}
+.author-descrip{
+  font-size: 10px;
+  text-align: center;
+  line-height: 8px;
+  margin-top: 10px;
+  color:gray;
+}
+.name-of-author{
+  margin-left: 18px;
+  font-size: 14px;
+}
+.project{
+  display: block;
+  border: 1px;
+  border-style: solid;
+  text-decoration: none;
+  text-align: center;
+  color: #755543;
+  height: 24px;
+}
+.project:hover{
+  background-color: #DBD5CB;
+  color: white;
+}
+.education-info{
+  margin-left: 8px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.education-title{
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.foot-info{
+  text-align: center;
+  font-size: 8px;
+  cursor: pointer;
+}
+.author-information{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border: 1px;
+  border-style: solid;
+  height: 150px;
+}
+.author-posi{
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
+  font-size: 28px;
+}
+.author-posit{
+  text-align: center;
+  font-weight: 300;
+  color: gray;
+  font-size: 10px;
+  margin-top: 8px;
+}
+.bottom{
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+.left{
+  border: 1px;
+  border-style: solid;
+}
+.title-project{
+  margin-left: 8px;
+  margin-bottom: 8px;
+  margin-top: 2px;
+}
+.detail-project{
+  border: 1px;
+  border-style: solid;
+  display: block;
+  font-size: 12px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: #755543;
+  font-size: 14px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s, color 0.2s;
+}
+.detail-project:hover{
+ background-color: #755543;
+ color: white; 
+}
+.middle{
+  border: 1px;
+  border-style: solid;
+}
+.exp{
+ margin-left: 8px;
+  margin-top: 2px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.exp-detail{
+  margin-bottom: 0;
+  margin-left: 8px;
+  font-weight: 500;
+  font-size: 10px;
+}
+.exp-details{
+  margin-top: 6px;
+  font-size: 10px;
+  margin-left: 8px;
+  margin-bottom: 0;
+
+}
+.expr-detail{
+  margin-top: 6px;
+  margin-left: 8px;
+  text-decoration: none;
+  color: blue;
+  font-size: 10px;
+}
+.opens-work{
+  border: 1px;
+  border-style: solid;
+}
+.source-work{
+  margin-top: 0px;
+  font-size: 16px;
+  font-weight: 700;
+  margin-left: 8px;
+  margin-bottom: 0;
+}
+.work-detail{
+  font-size: 10px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.work-link{
+  text-decoration: none;
+  color: blue;
+  font-size: 10px;
+  margin-left: 8px;
+  margin-top: 0;
+}
+.right{
+  border: 1px;
+  border-style: solid;
+}
+.detail{
+  margin-left: 8px;
+}
+.title{
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+.info{
+  margin-top: 8px;
+  font-size: 10px;
+}
+.footer{
+  border: 1px;
+  border-style: solid;
+}
+.reviews-title{
+  margin-bottom: 0;
+  margin-left: 8px;
+}
+.reviews-detail{
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 8px;
+}
+.reviews-teachers-name{
+  font-size: 12px;
+  line-height: 4px;
+  color: gray;
+  margin-left: 8px;
+}
+.box-reviews{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.review-box{
+  margin-left: 8px;
+  margin-top: 12px;
+  width: 250px;
+  padding: 25 px;
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+.policy-details{
+  text-align: center;
+  font-size: 18px;
+  cursor: pointer;
+}
